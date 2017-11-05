@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="metadata.doubantv.com"
+       name="doubantv"
+       version="1.2.3"
+       provider-name="janplus">
+  <requires>
+    <import addon="xbmc.metadata" version="1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.tvshows"
+             language="zh"
+             library="doubantv.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Douban TV Scraper</summary>
+    <summary lang="zh">豆瓣电视剧刮削器</summary>
+    <description lang="en">Download TV information from movie.douban.com</description>
+    <description lang="zh">从豆瓣网获取电视剧资料。豆瓣所有的内容，分类，筛选，排序都由用户产生和决定。豆瓣帮助你通过你喜爱的东西找到志同道合者，然后通过他们找到更多的好东西。</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=64250</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/taxigps/xbmc-addons-chinese/tree/master/metadata.doubantv.com</source>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.1ting"
+    name="一听音乐"
+    version="2.2.0"
+    provider-name="arthurqi,osfans">
+    <requires>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.keyboard.chinese" version="1.0.0" optional="true"/>
+    </requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">1ting audio plugin</summary>
+        <summary lang="zh">一听音乐插件</summary>
+        <description>一听音乐网（www.1ting.com）是中国最大的在线音乐网站，集正版音乐、原创歌曲平台、网络电台为一体，拥有丰富的正版音乐库、原创歌曲展示平台（可乐频道）和精彩纷呈的电台节目（一听音乐台）。</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=64250</forum>
+        <website></website>
+        <email></email>
+        <source>https://github.com/taxigps/xbmc-addons-chinese/tree/master/plugin.audio.1ting</source>
+    </extension>
+</addon>
